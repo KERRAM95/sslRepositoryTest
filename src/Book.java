@@ -14,10 +14,7 @@ public class Book {
     private CoverType type;
     private CoverType type2;
 
-public Book()
-{
 
-}
 
 public Book(int id, String name, Author[] authors, Publisher publisher,
 			int publishingYear, int amountOfPages, BigDecimal price,
