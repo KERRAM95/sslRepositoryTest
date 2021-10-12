@@ -84,7 +84,15 @@ public Book(int id, String name, Author[] authors, Publisher publisher,
         return type;
     }
 
-     
+     @Override
+     public String toString() {
+       
+         return " Book [Id="+id+", name="+name
+         +", +authors="+Arrays.toString(authors)
+         +", publisher="+publisher+", puplisher year="
+         + publishingYear+", amountOfPages="+amountOfPages
+         +", price="+price+", coverType="+type+"]";
+     }
 
      @Override
      public int hashCode() {
